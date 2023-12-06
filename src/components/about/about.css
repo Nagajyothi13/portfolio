@@ -1,0 +1,62 @@
+/* about.css */
+.about {
+    margin-top: 8rem;
+    text-align: left; /* Align content to the left */
+  }
+  
+  .about__content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about h2 {
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .about p {
+    color: var(--color-light);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about h3 {
+    color: var(--color-primary);
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .about li {
+    color: var(--color-light);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about li:hover {
+    color: var(--color-primary);
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for headings */
+  .about h2:hover,
+  .about h3:hover {
+    color: var(--color-bg);
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Container hover effect */
+  .about:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Add more styles as needed */
+  
