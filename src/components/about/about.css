@@ -13,6 +13,7 @@
     color: var(--color-primary);
     margin-bottom: 1.5rem;
     font-size: 2rem;
+    text-align: center;
   }
   
   .about p {
@@ -48,7 +49,7 @@
   /* Hover effect for headings */
   .about h2:hover,
   .about h3:hover {
-    color: var(--color-bg);
+    color: rosybrown;
     transition: color 0.3s ease-in-out;
   }
   

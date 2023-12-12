@@ -6,28 +6,21 @@ const About = () => {
     <section id="about" className="about container">
       <div className="about__content">
         <h2>About Me</h2>
-        <p>Hello! I'm Nagajyothi, a recent graduate and aspiring frontend developer with a passion for creating innovative and user-friendly web experiences.</p>
         
         <h3>Education</h3>
         <div className="education-item">
           <h4>BTech (Computer Science)</h4>
-          <p>Rajiv Gandhi University of Knowledge Technologies, Nuzvid</p>
-          <p>07/2019 – 05/2023</p>
-          <p>Grade: 8.9</p>
+          <p>Rajiv Gandhi University of Knowledge Technologies, Nuzvid[2019 - 2023]</p>
         </div>
 
         <div className="education-item">
           <h4>PUC (Pre-University Course)</h4>
-          <p>Rajiv Gandhi University of Knowledge Technologies, Nuzvid</p>
-          <p>06/2017 - 05/2019</p>
-          <p>Grade: 8.2</p>
+          <p>Rajiv Gandhi University of Knowledge Technologies, Nuzvid[2017 - 2019]</p>
         </div>
 
         <div className="education-item">
           <h4>Secondary Education</h4>
-          <p>ZP High school, R. Yenugupalli</p>
-          <p>06/2012 - 03/2017</p>
-          <p>Grade: 10</p>
+          <p>ZP High school, R. Yenugupalli[2012 - 2017]</p>
         </div>
 
         <h3>Interests</h3>
@@ -36,6 +29,11 @@ const About = () => {
           <li>Blockchain Development</li>
           <li>Software Development</li>
           <li>Natural Language Processing</li>
+        </ul>
+
+        <h3>Location</h3>
+        <ul>
+          <li>Amalapuram, Konaseema, Andhra Pradesh</li>
         </ul>
       </div>
     </section>
