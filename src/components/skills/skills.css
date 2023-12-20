@@ -1,0 +1,117 @@
+/* Global styles if needed */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f9fa; /* Example background color */
+}
+
+/* Section styles */
+#skills {
+  padding: 40px 20px;
+}
+
+/* Wrapper styles */
+#skills .wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Title styles */
+#skills h3 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #343a40; /* Example text color */
+  margin-top: 20px;
+}
+
+h2{
+  text-align: center;
+  color: var(--color-primary);
+  text-shadow: 1px 1px 2px darkcyan;
+  font-size: 30px ;
+}
+
+
+/* Skills container styles */
+#skills .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+/* Skill card styles */
+#skills .skill-card {
+  max-width: 500px;
+  width: 100%;
+  background: var(--color-bg);
+  border: 1px solid #343a40; /* Example border color */
+  border-radius: 16px;
+  padding: 18px 36px;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+
+  @media (max-width: 768px) {
+    max-width: 400px;
+    padding: 10px 16px;
+  }
+
+  @media (max-width: 500px) {
+    max-width: 360px;
+    padding: 2px 10px;
+  }
+}
+
+/* Skill title styles */
+#skills .skill-card h3 {
+  font-size: 23px;
+  font-weight: 600;
+  color: white ;
+  margin-bottom: 20px;
+  background-color: #4682B4;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Skill list styles */
+#skills .skill-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+/* Skill item styles */
+#skills .skill-item {
+  font-size: 16px;
+  font-weight: 400;
+  color: white; /* Example text color */
+  border: 1px solid #343a40; /* Example border color */
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+/* Skill image styles */
+#skills .skill-item img {
+  width: 24px;
+  height: 24px;
+}

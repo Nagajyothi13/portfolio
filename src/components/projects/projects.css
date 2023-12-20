@@ -1,0 +1,41 @@
+#projects {
+  padding: 30px 20px; /* Add space to the left and right */
+}
+
+.heading {
+  text-align: center; /* Align the heading to the center */
+  margin-bottom: 40px; /* Add bottom margin for spacing */
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Adjust the gap as needed */
+  margin: 0 auto;
+  max-width: 2000px; /* Set a maximum width for the projects container */
+}
+
+.project-card {
+  height: 300px; /* Set your desired height */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--color-bg);
+  overflow: hidden; /* Hide overflow content */
+}
+
+.project-title {
+  color: var(--color-primary); /* Adjust the color as needed */
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.project-details {
+  color: white; /* Adjust the color as needed */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+}
+
+.project-source a {
+  color: #007BFF; /* Adjust the color as needed */
+}
