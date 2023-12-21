@@ -44,27 +44,6 @@ header {
     text-shadow: 1px 1px 2px darkcyan;
 }
 
-/*========Me========*/
-/*
-.me {
-    background-color: var(--color-primary);
-    width: 20rem;
-    height: 20rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 50%;
-}*/
-/* .me{
-    background-color: var(--color-primary);
-    width: 14rem;
-    height: 14rem;
-    left: calc(50% - 10rem);
-    margin-top: 4rem;
-    position: absolute;
-    border-radius: 50%;
-} */
-
 
 /*========Scroll Down========*/
 .scroll__down{
@@ -90,12 +69,6 @@ header {
         height: 100vh;
     }
 
-    /* .header__socials, .scroll__down{
-        display: none !important;
-        /* opacity: 0; */
-        /* pointer-events: none;  */
-        /* visibility: hidden; */
-    /* } */
     .header__socials {
         display: flex;
         flex-direction: row;
@@ -147,7 +120,6 @@ header {
     animation: slideRight 1s ease-in-out;
   }
   
-  /* Add more styles as needed */
 
 
   .box{
@@ -217,7 +189,6 @@ header {
     transition: 0.5s;
     pointer-events: none;
     z-index: 2;
-    /* left: calc(50% -10rem); */
     
 }
 

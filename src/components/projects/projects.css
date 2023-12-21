@@ -10,19 +10,18 @@
 .projects-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 15px; /* Adjust the gap as needed */
+  gap: 15px;
   margin: 0 auto;
   max-width: 2000px; /* Set a maximum width for the projects container */
 }
 
 .project-card {
-  height: 290px; /* Set your desired height */
+  height: 290px; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: var(--color-bg);
   overflow: hidden; /* Hide overflow content */
-  transition: box-shadow 0.3s ease-in-out;
 }
 
 .project-card:hover {
@@ -30,19 +29,18 @@
 }
 
 .project-title {
-  color: var(--color-primary); /* Adjust the color as needed */
+  color: var(--color-primary); 
   font-size: 1.2em;
   margin-bottom: 10px;
 }
 
 .project-details {
-   /* Adjust the color as needed */
   overflow: hidden;
   text-overflow: ellipsis; /* Add ellipsis for overflow text */
 }
 
 .project-source a {
-  color: #007BFF; /* Adjust the color as needed */
+  color: #007BFF; 
 }
 .project-details::before {
   content: 'Skills Used: ';
@@ -63,7 +61,6 @@
     grid-template-columns: 1fr; /* Set a single column for small devices */
   }
   .project-card {
-    /* ... existing styles ... */
     cursor: pointer; /* Add pointer cursor to indicate clickability */
     height: 200px;
   }

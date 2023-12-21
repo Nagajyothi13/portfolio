@@ -10,7 +10,7 @@
   font-size: 2rem;
   margin-bottom: 2rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  animation: fadeInUp 1.5s ease, moveText 2s ease infinite; /* Add animations */
+  animation: fadeInUp 1.5s ease, moveText 2s ease infinite; 
 }
 
 .experience__card {
@@ -20,12 +20,9 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
   text-align: left;
-  /* transition: transform 0.3s ease-in-out;
-  opacity: 0; /* Set initial opacity to 0 for fade-in effect */
-  /* animation: fadeInUp 1.5s ease forwards; Add fade-in animation */ 
 }
 
-/* Define the animations */
+/* animations */
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -48,8 +45,6 @@
     transform: translateX(0);
   }
 }
-
-/* Rest of the styles remain unchanged */
 
   .experience__card h3 {
     color: var(--color-primary);

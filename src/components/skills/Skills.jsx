@@ -1,5 +1,5 @@
 import React from 'react';
-import './skills.css'; // Import the CSS file
+import './skills.css'; 
 import C from '../../assets/c.png'
 import CPP from '../../assets/cpp.png'
 import java from '../../assets/java.png'

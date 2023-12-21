@@ -17,7 +17,6 @@ const Experience = () => {
         <h4 className="experience__details">Skills used: </h4>
         <p>HTML, CSS, JavaScript, Chrome Extension API, Mutation Observers</p>
       </div>
-      {/* Add more experience cards as needed */}
     </section>
   );
 };

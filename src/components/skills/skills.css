@@ -1,10 +1,10 @@
-/* Global styles if needed */
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f8f9fa; /* Example background color */
+  background-color: #f8f9fa;
 }
 
 /* Section styles */
@@ -86,8 +86,8 @@ h3{
 #skills .skill-item {
   font-size: 16px;
   font-weight: 400;
-  color: white; /* Example text color */
-  border: 1px solid #343a40; /* Example border color */
+  color: white; 
+  border: 1px solid #343a40; 
   border-radius: 12px;
   padding: 12px 16px;
   display: flex;

@@ -70,6 +70,6 @@ input, textarea{
 
 input::placeholder,
 textarea::placeholder {
-  color: #999; /* Set the desired color for the placeholders */
+  color: #999; 
 }
 

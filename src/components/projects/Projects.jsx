@@ -4,7 +4,7 @@ import './projects.css';
 const Projects = () => {
   const popupRef = useRef(null);
   function toggleDescription(event, card) {
-    event.stopPropagation(); // Prevent event propagation to avoid triggering the window.onclick
+    event.stopPropagation(); 
     const projectDetailsText = card.querySelector('.project-details-text');
     const projectDescription = card.querySelector('.project-description');
     const projectPopupContent = document.getElementById('project-popup-content');
@@ -92,8 +92,6 @@ const Projects = () => {
             <div id='project-popup-content' className='project-popup-content'></div>
           </div>
     </div>
-
-      {/* Add more project cards as needed */}
     </section>
   );
 };
