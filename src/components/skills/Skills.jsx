@@ -21,11 +21,11 @@ const Skills = () => {
   return (
     <section id='skills'>
       <div>
-        <h2>Skills</h2>
+        <h3>Skills</h3>
       </div>
       <div className='skills-container'>
         <div className='skill-card'>
-          <h3>Programming Languages</h3>
+          <h4>Programming Languages</h4>
           <ul className='skill-list'>
             <li className='skill-item'><img src={C} alt=" "/>C</li>
             <li className='skill-item'><img src={CPP} alt=" "/>C++</li>
@@ -37,7 +37,7 @@ const Skills = () => {
         </div>
 
         <div className='skill-card'>
-          <h3>Web Technologies</h3>
+          <h4>Web Technologies</h4>
           <ul className='skill-list'>
             <li className='skill-item'><img src={html} alt=" "/>HTML</li>
             <li className='skill-item'><img src={css} alt=" "/>CSS</li>
@@ -47,7 +47,7 @@ const Skills = () => {
         </div>
 
         <div className='skill-card'>
-          <h3>Other Technologies</h3>
+          <h4>Other Technologies</h4>
           <ul className='skill-list'>
             <li className='skill-item'><img src={bc} alt=" "/>Blockchain</li>
             <li className='skill-item'><img src={nlp} alt=" "/>NLP</li>
@@ -55,14 +55,14 @@ const Skills = () => {
         </div>
 
         <div className='skill-card'>
-          <h3>Databases</h3>
+          <h4>Databases</h4>
           <ul className='skill-list'>
             <li className='skill-item'><img src={mysql} alt=" "/>MySQL</li>
           </ul>
         </div>
 
         <div className='skill-card'>
-          <h3>Others</h3>
+          <h4>Others</h4>
           <ul className='skill-list'>
             <li className='skill-item'><img src={msofc} alt=" "/>Ms Office</li>
             <li className='skill-item'><img src={github} alt=" "/>Github</li>
