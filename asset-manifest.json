@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.52fdb497.css",
+    "main.js": "/portfolio/static/js/main.b1431b88.js",
+    "static/media/profile2.jpg": "/portfolio/static/media/profile2.1be8e149a54440ac98b6.jpg",
+    "static/media/Jyothi_Resume10.pdf": "/portfolio/static/media/Jyothi_Resume10.23f95c85ad27ac0349e6.pdf",
+    "static/media/react.png": "/portfolio/static/media/react.f1d2c372b834922a4fcd.png",
+    "static/media/nlp.png": "/portfolio/static/media/nlp.526e2911d2a155d40108.png",
+    "static/media/python.png": "/portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/blockchain.png": "/portfolio/static/media/blockchain.e64a51c9a85f9f7ebf66.png",
+    "static/media/github.png": "/portfolio/static/media/github.0059e9fad6f103795f51.png",
+    "static/media/c.png": "/portfolio/static/media/c.ca323b325816f40cf155.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.bdbd1eb709e4c13258d2.png",
+    "static/media/java.png": "/portfolio/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/visual-studio-code.png": "/portfolio/static/media/visual-studio-code.f10cac488c0e477f6eca.png",
+    "static/media/cpp.png": "/portfolio/static/media/cpp.24a8f93854ab092f17a7.png",
+    "static/media/skill.png": "/portfolio/static/media/skill.6caaf9d49753b7a98bd9.png",
+    "static/media/java-script.png": "/portfolio/static/media/java-script.0c79834af5a93d66b4cd.png",
+    "static/media/css-3.png": "/portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "index.html": "/portfolio/index.html",
+    "main.52fdb497.css.map": "/portfolio/static/css/main.52fdb497.css.map",
+    "main.b1431b88.js.map": "/portfolio/static/js/main.b1431b88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52fdb497.css",
+    "static/js/main.b1431b88.js"
+  ]
+}
