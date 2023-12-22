@@ -42,6 +42,8 @@
 .project-source a {
   color: #007BFF; 
 }
+
+
 .project-details::before {
   content: 'Skills Used: ';
   font-weight: bold;
@@ -90,10 +92,12 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     overflow-y: auto;
+
   }
   .project-popup-content p {
     margin: 0;
   }
+
 }
 
 
@@ -104,5 +108,15 @@
   .project-card {
     cursor: pointer; /* Add pointer cursor to indicate clickability */
     height: auto;
+  }
+}
+
+.hidden-popup {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .project-popup {
+    display: none !important;
   }
 }

@@ -1,10 +1,11 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect, useCallback } from 'react';
 import './projects.css';
 
 const Projects = () => {
   const popupRef = useRef(null);
-  function toggleDescription(event, card) {
-    event.stopPropagation(); 
+
+  const toggleDescription = useCallback((event, card) => {
+    event.stopPropagation();
     const projectDetailsText = card.querySelector('.project-details-text');
     const projectDescription = card.querySelector('.project-description');
     const projectPopupContent = document.getElementById('project-popup-content');
@@ -17,7 +18,33 @@ const Projects = () => {
 
     // Toggle the display of the popup
     popupRef.current.style.display = popupRef.current.style.display === 'none' ? 'flex' : 'none';
-  }
+  }, []);
+
+  useEffect(() => {
+    const projectCards = document.querySelectorAll('.project-card');
+
+    const handleClick = (event, card) => {
+      toggleDescription(event, card);
+    };
+
+    // Enable click events only for small devices
+    const isMobile = window.innerWidth <= 600;
+
+    if (isMobile) {
+      projectCards.forEach((card) => {
+        card.addEventListener('click', (e) => handleClick(e, card));
+      });
+    }
+
+    return () => {
+      // Cleanup event listeners if needed
+      if (isMobile) {
+        projectCards.forEach((card) => {
+          card.removeEventListener('click', (e) => handleClick(e, card));
+        });
+      }
+    };
+  }, [toggleDescription]);
 
   // Close the popup if clicked outside the content or on the popup
   window.onclick = function (event) {
